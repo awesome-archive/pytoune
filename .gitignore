@@ -45,6 +45,7 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+.pytest_cache/
 
 # Translations
 *.mo
@@ -70,8 +71,6 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
 
 # celery beat schedule file
 celerybeat-schedule
@@ -81,6 +80,9 @@ celerybeat-schedule
 
 # dotenv
 .env
+
+# uv
+uv.lock
 
 # virtualenv
 .venv
@@ -100,4 +102,23 @@ ENV/
 # mypy
 .mypy_cache/
 
+# Pycharm projects
 .idea/
+
+# Sublime project settings
+*.sublime-project
+*.sublime-workspace
+
+# VScode projects
+.vscode/
+
+# VScode XDG
+XDG_*
+
+# LaTeX
+*.aux
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+
